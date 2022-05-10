@@ -1,8 +1,8 @@
-# twitter_topic_analysis_dashboard
+# Twitter topic analysis dashboard
 
 ### Instruction
 
-- set new virtual environment
+1. Set a new virtual environment and download `requirements.txt`
 
 ```shell
 # create a virtual environment
@@ -15,4 +15,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-- download requirements
+
+### Azure Synapse Analytics
+Azure Synapse Analytics is a cloud-based data warehouse offered by Microsoft. The service brings together data warehousing, data integration, and big data analytics through a single user interface (UI). 
+
+Users can ingest data from almost 100 native connectors by building ETL/ELT processes in a code-free environment. Users also benefit from integrated 
+
+
