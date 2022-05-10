@@ -12,6 +12,9 @@ This project makes use of `docker-compose` for running your project’s dependen
 ### Docker Image Setup
 
 To start docker-compose, navigate to the starter directory containing `docker-compose.yaml`.
+```shell
+cd docker-starter
+```
 
 #### 1. Kafka 
 ```shell
