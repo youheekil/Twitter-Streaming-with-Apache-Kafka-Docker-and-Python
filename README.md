@@ -1,4 +1,16 @@
 # Twitter topic analysis dashboard
+- [x] setting twitter developer account
+- [x] decide the twitter topic to analyze - Starbucks
+- [x] setting docker - spark streaming might need it soon 
+- [x] kafka - try producer and consumer 
+- [x] kafka - twitter - data ingestion
+- [ ] connect to spark streaming 
+- [ ] sentimental analysis & word cloud & map
+- [ ] anomaly detection on twitter 
+- [ ] save data on mongo db 
+- [ ] create a flask dashboard
+- [ ] using docker to upload it on azure
+
 
 ### Instruction
 
@@ -22,3 +34,5 @@ Azure Synapse Analytics is a cloud-based data warehouse offered by Microsoft. Th
 Users can ingest data from almost 100 native connectors by building ETL/ELT processes in a code-free environment. Users also benefit from integrated 
 
 
+### Data
+* https://financesonline.com/number-of-starbucks-worldwide/

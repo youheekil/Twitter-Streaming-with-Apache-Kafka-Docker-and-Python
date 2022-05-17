@@ -1,2 +1,4 @@
 textblob==0.17.1
 tweepy==3.10.0
+kafka-python
+pyspark
