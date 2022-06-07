@@ -9,7 +9,7 @@
 
 ### Instruction
 
-1. Set a new virtual environment and download `requirements.txt`
+### 1. Set a new virtual environment and download `requirements.txt`
 
 ```shell
 # create a virtual environment
@@ -23,21 +23,28 @@ pip install -r requirements.txt
 ```
 
 
-2. Running Kafka with Docker
+### 2. Running Kafka with Docker
 
-Docker Setup for Kafka is explained in [here](https://youheekil.github.io/running-kafka-docker/)
+Docker Setup for Kafka is explained in [HERE](https://youheekil.github.io/running-kafka-docker/) with details.
 
-3. Run `producer.py` and `consumer.py` for data streaming  
+### 3. Get Twitter API Credentials
+
+#### 3-1. Check the link for [TwitterAPI for Developer](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
+#### 3-2. Create a `credential.json` file with Twitter API Credentials
+
+### 4. Create python files -  `producer.py`, `consumer.py` under `src` folder for kafka 
+
+### 5. Run `producer.py` and `consumer.py` for data streaming  
 
 Prepare two separate terminal, and run `python conumser.py` and `python producer.py`
 
-#### terminal 1. 
+#### **terminal 1.** 
 ```shell
 python src/consumer.py
 ```
 
 
-#### terminal 2.
+#### **terminal 2.**
 ```shell 
 python src/producer.py
 ```
