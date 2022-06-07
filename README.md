@@ -32,17 +32,22 @@ Docker Setup for Kafka is explained in [HERE](https://youheekil.github.io/runnin
 #### 3-1. Check the link for [TwitterAPI for Developer](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
 #### 3-2. Create a `credential.json` file with Twitter API Credentials
 
+Check the file `src/credential.json`
+
 ### 4. Create python files -  `producer.py`, `consumer.py` under `src` folder for kafka 
+
+Check the files `src/producer.py` and `src/consumer.py`. 
+Make sure to modify the kafka `topic_name` and what to `track` on twitter. 
+
 
 ### 5. Run `producer.py` and `consumer.py` for data streaming  
 
-Prepare two separate terminal, and run `python conumser.py` and `python producer.py`
+Prepare two separate terminals, and run `python conumser.py` and `python producer.py`
 
 #### **terminal 1.** 
 ```shell
 python src/consumer.py
 ```
-
 
 #### **terminal 2.**
 ```shell 
