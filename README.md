@@ -21,3 +21,25 @@ source venv/bin/activate
 # Installing list of packages in requirements.txt
 pip install -r requirements.txt
 ```
+
+
+2. Running Kafka with Docker
+
+Docker Setup for Kafka is explained in [here](https://youheekil.github.io/running-kafka-docker/)
+
+3. Run `producer.py` and `consumer.py` for data streaming  
+
+Prepare two separate terminal, and run `python conumser.py` and `python producer.py`
+
+#### terminal 1. 
+```shell
+python src/consumer.py
+```
+
+
+#### terminal 2.
+```shell 
+python src/producer.py
+```
+
+
